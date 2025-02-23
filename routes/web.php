@@ -12,4 +12,5 @@ Route::get('/admin-laporan-peminjaman',[AdminController::class,'laporan_peminjam
 Route::get('/admin-laporan-pengembalian',[AdminController::class,'laporan_pengembalian'])->name('admin.laporan.pengembalian');
 Route::get('/admin-laporan-denda',[AdminController::class,'laporan_denda'])->name('admin.laporan.denda');
 Route::get('/profile',[AdminController::class,'profile'])->name('admin.profile');
+Route::get('/admin',[AdminController::class,'admin'])->name('admin.homepage');
 Route::get('/logout',[AdminController::class,'login'])->name('logout');
